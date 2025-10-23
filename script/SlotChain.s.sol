@@ -5,7 +5,7 @@ import {SlotChain} from '../src/SlotChain.sol';
 import {ERC1967Proxy} from '@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol';
 import 'forge-std/console.sol';
 
-contract DeploySlotChainImp is Script {
+contract DeploySlotChain is Script {
     address baseTokenAddress = vm.envAddress('SEPOLIA_USDT');
     address platformOwner = vm.envAddress('PLATFORM_OWNER');
 
